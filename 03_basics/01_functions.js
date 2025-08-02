@@ -34,5 +34,10 @@ function loginUserMessage(username){
     }
     return `${username} just logged in`
 }
-console.log(loginUserMessage("vankish"))
-console.log(loginUserMessage())//undefined when we donot pass any value
+// console.log(loginUserMessage("vankish"))
+// console.log(loginUserMessage())//undefined when we donot pass any value
+
+function CalculateCartPrice(...num1){
+    return num1;
+}
+console.log(calculateCartPrice(200,400,500))
